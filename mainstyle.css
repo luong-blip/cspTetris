@@ -1,11 +1,9 @@
 body {
     text-align: center;
-    background: white;
-
+    background: #fff;
 }
 #my-canvas {
-    background: white;
+    background: #fff;
     margin-left: 10px;
     margin-top: 10px;
-
 }
