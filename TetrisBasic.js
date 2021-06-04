@@ -68,7 +68,7 @@ function SetupCanvas(){
     tetrisLogo.src = "tetrislogo.png";
 
     ctx.fillStyle = 'black';
-    ctx.font = '21px Arial';
+    ctx.font = '15px Arial';
     ctx.fillText("SCORE", 300, 98);
 
     ctx.strokeRect(300, 107, 161, 24);
@@ -91,11 +91,11 @@ function SetupCanvas(){
 
     ctx.strokeRect(300, 366, 161, 104);
 
-    ctx.font = '19px Arial';
-    ctx.fillText("A : Move Left", 310, 388);
-    ctx.fillText("D : Move Right", 310, 413);
-    ctx.fillText("S : Move Down", 310, 438);
-    ctx.fillText("E : Rotate Right", 310, 463);
+    ctx.font = '15px Arial';
+    ctx.fillText("L-arrow : Move Left", 310, 388);
+    ctx.fillText("R-arrow : Move Right", 310, 413);
+    ctx.fillText("D-arrow : Move Down", 310, 438);
+    ctx.fillText("U-arrow : Rotate Right", 310, 463);
 
     document.addEventListener('keydown', HandleKeyPress);
 
