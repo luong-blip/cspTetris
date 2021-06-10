@@ -157,7 +157,7 @@ function HandleKeyPress(key){
 function MoveTetrominoDown(){
     direction = DIRECTION.DOWN;
 
-    if(!CheckForVerticalCollison()){
+    if(!CheckForVerticalCollision()){
         DeleteTetromino();
         startY++;
         DrawTetromino();
@@ -221,7 +221,7 @@ function HittingTheWall(){
     return false;
 }
 
-function CheckForVerticalCollison(){
+function CheckForVerticalCollision(){
     let tetrominoCopy = curTetromino;
     let collision = false;
 
